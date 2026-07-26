@@ -14,8 +14,11 @@ What started as a silly annual Twitter post is turning into... well, this.
 
 **Location:** Alexandria, Virginia (Greater DC)
 
+
 **Signal:** SpudSec.82
+
 **Twitter:** [@SpudSecurity](https://twitter.com/SpudSecurity)
+
 **Email:** HackerHusband@Spudsec.com
 
 ---
