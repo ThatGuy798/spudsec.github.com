@@ -1,6 +1,7 @@
 ---
-layout: default
-title: Your Future Hacker Husband — Now Hiring
+theme: jekyll-theme-hacker
+title: "Your Future Hacker Husband"
+description: "Yes This Is Real"
 ---
 
 # SPUDSEC
