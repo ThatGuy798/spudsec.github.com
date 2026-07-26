@@ -12,9 +12,11 @@ DEF CON — hi, it's me, Spud, your future hacker husband.
 
 What started as a silly annual Twitter post is turning into... well, this.
 
-**Signal:** SpudSec.82
 **Location:** Alexandria, Virginia (Greater DC)
+
+**Signal:** SpudSec.82
 **Twitter:** [@SpudSecurity](https://twitter.com/SpudSecurity)
+**Email:** HackerHusband@Spudsec.com
 
 ---
 
@@ -80,10 +82,7 @@ me by their side. Let me be your smart, goofy, golden retriever partner.
 
 ## How to Contact Me
 
-Use any of the contact info on the business card, or here:
-
-- **Email:** HackerHusband@Spudsec.com
-- **Twitter:** [@SpudSecurity](https://twitter.com/SpudSecurity)
+Use any of the contact info on the business card, or above:
 
 ## If You're Actually Interested — Rules of Engagement
 
@@ -102,6 +101,10 @@ When you reach out, please include:
 - Any fun facts about yourself
 - How you'd like to continue the conversation (Twitter/Bluesky DMs, or the
   email on the business card)
+
+## Other important notes: 
+
+I'm a leftist and not interested in right-leaning individuals. Trans-rights are human rights, injustice anywhere is injustice everywhere, and it is a genocide
 
 ---
 
