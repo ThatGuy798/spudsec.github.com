@@ -120,6 +120,49 @@
   }
   .tags .sep { color: var(--border); margin: 0 6px; }
 
+  .hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .hero-text {
+    flex: 1 1 320px;
+    min-width: 0;
+  }
+
+  .hero-photo {
+    flex: 0 0 auto;
+    width: clamp(120px, 30vw, 200px);
+    height: clamp(120px, 30vw, 200px);
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: #0d1310;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-dim);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    text-align: center;
+    padding: 8px;
+  }
+
+  .hero-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  @media (max-width: 480px) {
+    .hero { flex-direction: column; }
+    .hero-photo { align-self: center; }
+  }
+
   .meta {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -261,9 +304,14 @@
 
       <div class="prompt"><span class="user">spud@spudsec</span>:<span class="path">~</span>$ <span class="cmd">whoami</span></div>
 
-      <h1>SPUD<span class="accent">SEC</span></h1>
-      <p class="subtitle">Your Future Husband</p>
-      <p class="tags">Nerdy<span class="sep">|</span>Dorky<span class="sep">|</span>Good Boy<span class="sep">|</span>Tinge of the 'tism</p>
+      <div class="hero">
+        <div class="hero-text">
+          <h1>SPUD<span class="accent">SEC</span></h1>
+          <p class="subtitle">Your Future Husband</p>
+          <p class="tags">Nerdy<span class="sep">|</span>Dorky<span class="sep">|</span>Good Boy<span class="sep">|</span>Tinge of the 'tism</p>
+        </div>
+        <div class="hero-photo">[placeholder]</div>
+      </div>
 	  
 	  <div class="meta">
         <div><span class="k">Location:</span> <span class="v">Alexandria, Virginia (Greater DC)</span></div>
