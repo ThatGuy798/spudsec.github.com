@@ -1,0 +1,24 @@
+title: "SpudSec"
+description: "Security, hacking, potatoes, and occasional nonsense."
+url: "https://spudsec.com"        # update once your custom domain is live
+baseurl: ""                        # leave blank once on a custom domain / user site
+                                    # if this stays a project site (no custom domain yet),
+                                    # set baseurl to "/spudsec.github.com"
+
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
